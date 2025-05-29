@@ -6,13 +6,6 @@ from time import time
 import scipy.linalg as scp_LA
 from time import perf_counter
 
-
-"""
-The following methods are based on the Golden Ratio PDA proposed by Xiaokai Chang and Junfeng Yang.
-"""
-
-
-
 def adaptive_graals_acc(J, F, prox_g, x1, numb_iter=100, phi=1.5, output=False):
     """ Adaptive Golden Ratio algorithm.
     Input 
